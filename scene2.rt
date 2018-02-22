@@ -1,0 +1,24 @@
+camera 0 0 50 0 0 0 49 0.1 646464
+light -95 50 65 2.1 275
+light 95 50 65 2.1 275
+sphere 0 140 14 7 FF3030
+# column front left
+sphere -50 130 0 15 646464
+sphere -50 130 80 15 646464
+cylinder -50 130 0 0 0 1 9 646464
+# column front right
+sphere 50 130 0 15 646464
+sphere 50 130 80 15 646464
+cylinder 50 130 0 0 0 1 9 646464
+# column back left
+sphere -50 220 0 15 646464
+sphere -50 220 80 15 646464
+cylinder -50 220 0 0 0 1 9 646464
+# column back right
+sphere 50 220 0 15 646464
+sphere 50 220 80 15 646464
+cylinder 50 220 0 0 0 1 9 646464
+# floor/ceiling/wall
+plane 0 0 0 0 0 1 646464
+plane 0 310 0 0 1 0 2E2EFF
+plane 0 0 80 0 0 1 646464 
